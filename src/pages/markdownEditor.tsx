@@ -55,6 +55,9 @@ export default function MarkdownEditor() {
               height={"80vh"}
               border={"none"}
               color={"#fff"}
+              sx={{
+                textShadow: "0 0 8px currentColor",
+              }}
             >
               <Editor
                 markdown={markdown}
